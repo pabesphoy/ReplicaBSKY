@@ -9,7 +9,6 @@ bsky_user = input("Introduce tu usuario de Bluesky (BSKY): ")
 password = input("Introduce tu contraseña de Bluesky: ")
 
 replicatedTweets = set()
-lastBSKYPost = None
 
 
 print(f"Twitter: {twitter_user}, BSKY: {bsky_user}, Contraseña: {'*' * len(password)}")
